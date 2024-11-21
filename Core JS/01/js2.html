@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="konzola"></div>
+        <script>
+            var min=65;
+            var max=91;
+
+            var opseg=max-min;
+            var r=Math.floor(Math.random()*opseg)+min;
+            var s1=String.fromCharCode(r);
+
+            var r=Math.floor(Math.random()*opseg)+min;
+            var s2=String.fromCharCode(r);
+            
+            var r=Math.floor(Math.random()*opseg)+min;
+            var s3=String.fromCharCode(r);
+
+            var rez=s1+s2+s3
+
+            console.log(rez);
+        </script>
+    </body>
+</html>

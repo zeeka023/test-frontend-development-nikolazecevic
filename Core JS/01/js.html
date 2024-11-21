@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="konzola"></div>
+        <script>
+            var cifra=6548;
+            var prva=cifra%10
+            var druga=(Math.floor(cifra/10))%10;
+            var treca=(Math.floor(cifra/100))%10;
+            var cetvrta=(Math.floor(cifra/1000))%10;
+            var rezultat=prva*druga*treca*cetvrta;
+
+            document.getElementById("konzola").innerHTML=rezultat;
+
+        </script>
+    </body>    
+</html>
